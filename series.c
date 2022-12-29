@@ -2,23 +2,24 @@
 #include<math.h>
 int main()
 {
-	int n,a=1,b=2,i;
+	int n,k1=0,k2=0,a,b,i;
 	scanf("%d",&n);
-		printf("%d ",a);
-			printf("%d ",b);
+	printf("0 ");
 	for(i=0;i<=n-2;i++)
 	{
 		if(i%2==0)
 		{
-	    
-		   a=(a*2)+1;
-		   	printf("%d ",a);
+			
+			b=pow(3,k2);
+			printf("%d ",b);
+			k2++;
 		}
 		else
 		{
-		
-		b=(b*3)+2;
-			printf("%d ",b);
+			
+		a=pow(2,k1);
+		printf("%d ",a);
+		k1++;	
 		}
 	}
 }
