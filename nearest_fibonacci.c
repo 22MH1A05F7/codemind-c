@@ -32,8 +32,9 @@ int main()
  }
  else
  {
-     printf("%d %d",b,f);
+ 	printf("%d %d",b,f);
  }
+
 }
 int nfib(int n)
 {
